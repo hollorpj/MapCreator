@@ -1,0 +1,6 @@
+cur = tileRaw.getSubimage((widthTile * j), (heightTile * i), widthTile, heightTile);
+				//cur = new BufferedImage(scaledWidth, scaledHeight, cur.getScaledInstance(scaledWidth, scaledHeight, Image.SCALE_SMOOTH));
+				BufferedImage out = new BufferedImage(scaledWidth, scaledHeight, BufferedImage.TYPE_INT_RGB);
+				out.getGraphics().drawImage(cur.getScaledInstance(scaledWidth, scaledHeight, Image.SCALE_SMOOTH), 0, 0, null);
+				ImageIO.write(out, "png", new File("/home/mrshmirk/Desktop/b/" + count));
+				count++;
