@@ -1,7 +1,7 @@
 NOTE TO USERS:
 
 I built this using a Linux system.
-Thus, files are referenced in the Linux format.
+Thus, files are referenced in the Linux format (forward slash, not backslash).
 I'm not sure if this will work for Windows.
 May fix later.
 
